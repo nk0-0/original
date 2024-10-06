@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/user/Desktop/My/MyCpp/build/08_project/vec",
+  "command": "C:\\x86_64-14.1.0-release-posix-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/vec.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -o CMakeFiles\\vec.dir\\vec.cpp.obj -c C:\\Users\\user\\Desktop\\My\\MyCpp\\08_project\\vec\\vec.cpp",
+  "file": "C:/Users/user/Desktop/My/MyCpp/08_project/vec/vec.cpp",
+  "output": "08_project/vec/CMakeFiles/vec.dir/vec.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Desktop/My/MyCpp/build/08_project/vec",
+  "command": "C:\\x86_64-14.1.0-release-posix-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/vec.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -o CMakeFiles\\vec.dir\\__\\__\\lib\\vec\\vec2d.cpp.obj -c C:\\Users\\user\\Desktop\\My\\MyCpp\\lib\\vec\\vec2d.cpp",
+  "file": "C:/Users/user/Desktop/My/MyCpp/lib/vec/vec2d.cpp",
+  "output": "08_project/vec/CMakeFiles/vec.dir/__/__/lib/vec/vec2d.cpp.obj"
+}
+]
