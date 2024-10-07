@@ -161,6 +161,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named calculator
+
+# Build rule for target.
+calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calculator
+.PHONY : calculator
+
+# fast build rule for target.
+calculator/fast:
+	$(MAKE) $(MAKESILENT) -f 07_project\calc\CMakeFiles\calculator.dir\build.make 07_project/calc/CMakeFiles/calculator.dir/build
+.PHONY : calculator/fast
+
+#=============================================================================
+# Target rules for targets named name_age
+
+# Build rule for target.
+name_age: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 name_age
+.PHONY : name_age
+
+# fast build rule for target.
+name_age/fast:
+	$(MAKE) $(MAKESILENT) -f 07_project\name_age\CMakeFiles\name_age.dir\build.make 07_project/name_age/CMakeFiles/name_age.dir/build
+.PHONY : name_age/fast
+
+#=============================================================================
 # Target rules for targets named vec
 
 # Build rule for target.
@@ -185,6 +211,8 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... calculator
+	@echo ... name_age
 	@echo ... vec
 .PHONY : help
 

@@ -62,16 +62,52 @@ CMAKE_BINARY_DIR = C:\Users\user\Desktop\My\MyCpp\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: 07_project/calc/all
+all: 07_project/name_age/all
 all: 08_project/vec/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: 07_project/calc/preinstall
+preinstall: 07_project/name_age/preinstall
 preinstall: 08_project/vec/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: 07_project/calc/clean
+clean: 07_project/name_age/clean
 clean: 08_project/vec/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 07_project/calc
+
+# Recursive "all" directory target.
+07_project/calc/all: 07_project/calc/CMakeFiles/calculator.dir/all
+.PHONY : 07_project/calc/all
+
+# Recursive "preinstall" directory target.
+07_project/calc/preinstall:
+.PHONY : 07_project/calc/preinstall
+
+# Recursive "clean" directory target.
+07_project/calc/clean: 07_project/calc/CMakeFiles/calculator.dir/clean
+.PHONY : 07_project/calc/clean
+
+#=============================================================================
+# Directory level rules for directory 07_project/name_age
+
+# Recursive "all" directory target.
+07_project/name_age/all: 07_project/name_age/CMakeFiles/name_age.dir/all
+.PHONY : 07_project/name_age/all
+
+# Recursive "preinstall" directory target.
+07_project/name_age/preinstall:
+.PHONY : 07_project/name_age/preinstall
+
+# Recursive "clean" directory target.
+07_project/name_age/clean: 07_project/name_age/CMakeFiles/name_age.dir/clean
+.PHONY : 07_project/name_age/clean
 
 #=============================================================================
 # Directory level rules for directory 08_project/vec
@@ -89,13 +125,65 @@ clean: 08_project/vec/clean
 .PHONY : 08_project/vec/clean
 
 #=============================================================================
+# Target rules for target 07_project/calc/CMakeFiles/calculator.dir
+
+# All Build rule for target.
+07_project/calc/CMakeFiles/calculator.dir/all:
+	$(MAKE) $(MAKESILENT) -f 07_project\calc\CMakeFiles\calculator.dir\build.make 07_project/calc/CMakeFiles/calculator.dir/depend
+	$(MAKE) $(MAKESILENT) -f 07_project\calc\CMakeFiles\calculator.dir\build.make 07_project/calc/CMakeFiles/calculator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Desktop\My\MyCpp\build\CMakeFiles --progress-num=1,2,3 "Built target calculator"
+.PHONY : 07_project/calc/CMakeFiles/calculator.dir/all
+
+# Build rule for subdir invocation for target.
+07_project/calc/CMakeFiles/calculator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\My\MyCpp\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 07_project/calc/CMakeFiles/calculator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\My\MyCpp\build\CMakeFiles 0
+.PHONY : 07_project/calc/CMakeFiles/calculator.dir/rule
+
+# Convenience name for target.
+calculator: 07_project/calc/CMakeFiles/calculator.dir/rule
+.PHONY : calculator
+
+# clean rule for target.
+07_project/calc/CMakeFiles/calculator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 07_project\calc\CMakeFiles\calculator.dir\build.make 07_project/calc/CMakeFiles/calculator.dir/clean
+.PHONY : 07_project/calc/CMakeFiles/calculator.dir/clean
+
+#=============================================================================
+# Target rules for target 07_project/name_age/CMakeFiles/name_age.dir
+
+# All Build rule for target.
+07_project/name_age/CMakeFiles/name_age.dir/all:
+	$(MAKE) $(MAKESILENT) -f 07_project\name_age\CMakeFiles\name_age.dir\build.make 07_project/name_age/CMakeFiles/name_age.dir/depend
+	$(MAKE) $(MAKESILENT) -f 07_project\name_age\CMakeFiles\name_age.dir\build.make 07_project/name_age/CMakeFiles/name_age.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Desktop\My\MyCpp\build\CMakeFiles --progress-num=4,5 "Built target name_age"
+.PHONY : 07_project/name_age/CMakeFiles/name_age.dir/all
+
+# Build rule for subdir invocation for target.
+07_project/name_age/CMakeFiles/name_age.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\My\MyCpp\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 07_project/name_age/CMakeFiles/name_age.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\Desktop\My\MyCpp\build\CMakeFiles 0
+.PHONY : 07_project/name_age/CMakeFiles/name_age.dir/rule
+
+# Convenience name for target.
+name_age: 07_project/name_age/CMakeFiles/name_age.dir/rule
+.PHONY : name_age
+
+# clean rule for target.
+07_project/name_age/CMakeFiles/name_age.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 07_project\name_age\CMakeFiles\name_age.dir\build.make 07_project/name_age/CMakeFiles/name_age.dir/clean
+.PHONY : 07_project/name_age/CMakeFiles/name_age.dir/clean
+
+#=============================================================================
 # Target rules for target 08_project/vec/CMakeFiles/vec.dir
 
 # All Build rule for target.
 08_project/vec/CMakeFiles/vec.dir/all:
 	$(MAKE) $(MAKESILENT) -f 08_project\vec\CMakeFiles\vec.dir\build.make 08_project/vec/CMakeFiles/vec.dir/depend
 	$(MAKE) $(MAKESILENT) -f 08_project\vec\CMakeFiles\vec.dir\build.make 08_project/vec/CMakeFiles/vec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Desktop\My\MyCpp\build\CMakeFiles --progress-num=1,2,3 "Built target vec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\user\Desktop\My\MyCpp\build\CMakeFiles --progress-num=6,7,8 "Built target vec"
 .PHONY : 08_project/vec/CMakeFiles/vec.dir/all
 
 # Build rule for subdir invocation for target.

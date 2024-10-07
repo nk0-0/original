@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Users/user/Desktop/My/MyCpp/07_project/calc/CMakeLists.txt"
+  "C:/Users/user/Desktop/My/MyCpp/07_project/name_age/CMakeLists.txt"
   "C:/Users/user/Desktop/My/MyCpp/08_project/vec/CMakeLists.txt"
   "C:/Users/user/Desktop/My/MyCpp/CMakeLists.txt"
   "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
@@ -46,10 +48,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "07_project/calc/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "07_project/name_age/CMakeFiles/CMakeDirectoryInformation.cmake"
   "08_project/vec/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "07_project/calc/CMakeFiles/calculator.dir/DependInfo.cmake"
+  "07_project/name_age/CMakeFiles/name_age.dir/DependInfo.cmake"
   "08_project/vec/CMakeFiles/vec.dir/DependInfo.cmake"
   )

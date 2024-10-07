@@ -1,0 +1,163 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "07_project/calc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-07_project.calc-Debug-df97cd74c4a1f4a55229.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "07_project/calc",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "07_project/name_age",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-07_project.name_age-Debug-4b0213e29d38e393e605.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "07_project/name_age",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "08_project/vec",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-08_project.vec-Debug-dc9c1fce4fee7afadb21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "08_project/vec",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "calculator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "name_age",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "vec",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "calculator::@3fe4cff12bbe97a6dafa",
+					"jsonFile" : "target-calculator-Debug-e2bedefb5c2338a8e522.json",
+					"name" : "calculator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "name_age::@ee343874fa4d834f025a",
+					"jsonFile" : "target-name_age-Debug-8e8a582f10d9dbf6d150.json",
+					"name" : "name_age",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "vec::@3ac079add2567207bdc2",
+					"jsonFile" : "target-vec-Debug-a7e779e483744ee23529.json",
+					"name" : "vec",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/Desktop/My/MyCpp/build",
+		"source" : "C:/Users/user/Desktop/My/MyCpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

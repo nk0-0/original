@@ -10,6 +10,6 @@ include_directories(
     ${LIB_DIR}
 )
 
+add_subdirectory(07_project/calc)
+add_subdirectory(07_project/name_age)
 add_subdirectory(08_project/vec)
-
-project(project)

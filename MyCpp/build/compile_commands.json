@@ -1,5 +1,23 @@
 [
 {
+  "directory": "C:/Users/user/Desktop/My/MyCpp/build/07_project/calc",
+  "command": "C:\\x86_64-14.1.0-release-posix-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/calculator.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -o CMakeFiles\\calculator.dir\\calculator.cpp.obj -c C:\\Users\\user\\Desktop\\My\\MyCpp\\07_project\\calc\\calculator.cpp",
+  "file": "C:/Users/user/Desktop/My/MyCpp/07_project/calc/calculator.cpp",
+  "output": "07_project/calc/CMakeFiles/calculator.dir/calculator.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Desktop/My/MyCpp/build/07_project/calc",
+  "command": "C:\\x86_64-14.1.0-release-posix-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/calculator.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -o CMakeFiles\\calculator.dir\\__\\__\\lib\\calc\\token.cpp.obj -c C:\\Users\\user\\Desktop\\My\\MyCpp\\lib\\calc\\token.cpp",
+  "file": "C:/Users/user/Desktop/My/MyCpp/lib/calc/token.cpp",
+  "output": "07_project/calc/CMakeFiles/calculator.dir/__/__/lib/calc/token.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Desktop/My/MyCpp/build/07_project/name_age",
+  "command": "C:\\x86_64-14.1.0-release-posix-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/name_age.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -o CMakeFiles\\name_age.dir\\para.cpp.obj -c C:\\Users\\user\\Desktop\\My\\MyCpp\\07_project\\name_age\\para.cpp",
+  "file": "C:/Users/user/Desktop/My/MyCpp/07_project/name_age/para.cpp",
+  "output": "07_project/name_age/CMakeFiles/name_age.dir/para.cpp.obj"
+},
+{
   "directory": "C:/Users/user/Desktop/My/MyCpp/build/08_project/vec",
   "command": "C:\\x86_64-14.1.0-release-posix-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\g++.exe  @CMakeFiles/vec.dir/includes_CXX.rsp -pedantic -Wall -Wextra -g -o CMakeFiles\\vec.dir\\vec.cpp.obj -c C:\\Users\\user\\Desktop\\My\\MyCpp\\08_project\\vec\\vec.cpp",
   "file": "C:/Users/user/Desktop/My/MyCpp/08_project/vec/vec.cpp",

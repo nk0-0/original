@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"08_project/vec/CMakeLists.txt"
+			"07_project/calc/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -30,16 +30,16 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"08_project/vec/vec.exe"
+				"07_project/calc/calculator.exe"
 			],
-			"targetId" : "vec::@3ac079add2567207bdc2",
+			"targetId" : "calculator::@3fe4cff12bbe97a6dafa",
 			"targetIndex" : 0,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "08_project/vec",
-		"source" : "08_project/vec"
+		"build" : "07_project/calc",
+		"source" : "07_project/calc"
 	}
 }
